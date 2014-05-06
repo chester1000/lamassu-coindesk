@@ -1,4 +1,4 @@
 lamassu-coindesk
 ================
 
-Coindesk module containing ticker functionality for Lamassu Bitcoin Machine. 
+lamassu-server module containing ticker functionality for CoinDesk Bitcoin Price Index. 
