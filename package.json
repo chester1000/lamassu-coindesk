@@ -1,14 +1,14 @@
 {
-  "name": "lamassu-bitpay",
-  "version": "0.1.0",
-  "description": "Lamassu Trade and Ticker for Bitpay",
+  "name": "lamassu-coindesk",
+  "version": "0.0.1",
+  "description": "Lamassu ticker for CoinDesk Bitcoin Price Index",
   "main": "lib/index.js",
   "scripts": {
     "test": "tap ./test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lamassu/lamassu-bitpay.git"
+    "url": "https://github.com/lamassu/lamassu-coindesk.git"
   },
   "keywords": [
     "Lamassu",
@@ -18,9 +18,12 @@
   "author": "Lamassu (https://lamassu.is)",
   "license": "unlicense",
   "bugs": {
-    "url": "https://github.com/lamassu/lamassu-bitpay/issues"
+    "url": "https://github.com/lamassu/lamassu-coindesk/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async": "~0.8.0",
+    "jsonquest": "lamassu/jsonquest"
+  },
   "devDependencies": {
     "tap": "~0.4.8"
   }

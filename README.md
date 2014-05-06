@@ -1,4 +1,4 @@
-lamassu-bitpay
-==============
+lamassu-coindesk
+================
 
-Bitpay module containing ticker and trader functionality 
+Coindesk module containing ticker functionality for Lamassu Bitcoin Machine. 
