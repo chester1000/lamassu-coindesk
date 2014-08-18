@@ -1,6 +1,8 @@
 lamassu-coindesk
 ================
 
+[![Build Status](https://travis-ci.org/lamassu/lamassu-coindesk.svg)](https://travis-ci.org/lamassu/lamassu-coindesk)
+
 Lamassu Coindesk ticker plugin
 
 
