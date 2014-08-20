@@ -8,10 +8,11 @@ var async   = require('async');
 exports.NAME = 'Coindesk';
 exports.SUPPORTED_MODULES = ['ticker'];
 var API_ENDPOINT = 'https://api.coindesk.com/v1/bpi/';
+var config = {};
 
 
-exports.config = function config(config) {
-  if (config) _.merge(exports, config);
+exports.config = function config(localConfig) {
+  if (localConfig) _.merge(config, localConfig);
 };
 
 
