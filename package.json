@@ -1,10 +1,10 @@
 {
   "name": "lamassu-coindesk",
-  "version": "0.2.0",
+  "version": "1.0.1",
   "description": "Lamassu ticker for CoinDesk Bitcoin Price Index",
-  "main": "lib/index.js",
+  "main": "ticker.js",
   "scripts": {
-    "test": "tap ./test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,13 @@
   "bugs": {
     "url": "https://github.com/lamassu/lamassu-coindesk/issues"
   },
-  "dependencies": {
-    "async": "~0.8.0",
-    "jsonquest": "lamassu/jsonquest"
-  },
   "devDependencies": {
-    "tap": "~0.4.8"
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "lodash": "^2.4.1",
+    "wreck": "^3.0.0"
   }
 }
