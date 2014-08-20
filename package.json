@@ -2,7 +2,7 @@
   "name": "lamassu-coindesk",
   "version": "1.0.0",
   "description": "Lamassu ticker for CoinDesk Bitcoin Price Index",
-  "main": "index.js",
+  "main": "ticker.js",
   "scripts": {
     "test": "mocha"
   },
